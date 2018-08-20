@@ -1,12 +1,13 @@
 package core.wf.core;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import core.wf.core.Base.BaseActivity;
 import core.wf.core.widget.XDialog;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,7 +16,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void click(View view) {
-        XDialog dialog = new XDialog();
-        dialog.show(getFragmentManager(), "dialog");
+//        XDialog dialog = new XDialog();
+//        dialog.show(getFragmentManager(), "dialog");
+
+        startActivity(new Intent());
     }
 }

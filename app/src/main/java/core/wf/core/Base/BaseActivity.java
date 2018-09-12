@@ -8,4 +8,6 @@ import android.support.v7.app.AppCompatActivity;
  * @time 2018/8/18 10:04
  */
 public class BaseActivity extends AppCompatActivity{
+
+    
 }
